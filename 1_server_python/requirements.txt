@@ -1,0 +1,21 @@
+# ASCON-CRA OTA Server Dependencies
+
+# Cryptography
+cryptography>=41.0.0       # Ed25519, X25519, HKDF
+pyascon>=0.3.0             # ASCON-128a AEAD (optional, has fallback)
+
+# Networking (for OTA server)
+httpx>=0.25.0              # Async HTTP client
+websockets>=12.0           # WebSocket for real-time updates
+
+# Serial communication (for direct USB/UART testing)
+pyserial>=3.5              # Serial port communication
+
+# Utilities
+python-dotenv>=1.0.0       # Environment variables
+pydantic>=2.0.0            # Data validation
+rich>=13.0.0               # Pretty console output
+
+# Development
+pytest>=8.0.0              # Testing
+pytest-asyncio>=0.23.0     # Async test support

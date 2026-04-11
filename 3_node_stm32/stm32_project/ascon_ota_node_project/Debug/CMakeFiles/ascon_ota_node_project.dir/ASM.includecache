@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/NCKH/ASCON-CRA-OTA/3_node_stm32/stm32_project/ascon_ota_node_project/Startup/startup_stm32f103cbtx.s
+
