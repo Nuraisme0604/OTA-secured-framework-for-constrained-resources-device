@@ -1,0 +1,16 @@
+idf_component_register(
+    SRCS 
+        "main.c"
+        "uart_bridge.c"
+        "ota_cache.c"
+        "protocol_parser.c"
+    INCLUDE_DIRS 
+        "."
+        "${CMAKE_SOURCE_DIR}/../common"
+    REQUIRES 
+        driver 
+        freertos 
+        nvs_flash 
+        mbedtls
+        esp_driver_uart
+)
