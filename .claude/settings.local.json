@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(git submodule *)",
-      "Bash(git rm *)"
+      "Bash(git rm *)",
+      "Bash(python -m compileall -q gui_app.py src/gui)"
     ]
   }
 }

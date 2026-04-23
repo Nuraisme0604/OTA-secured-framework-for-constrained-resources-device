@@ -121,7 +121,7 @@ Packet types:
 - Do not present TODO crypto paths as production-safe.
 
 **Embedded:**
-- STM32F103C8 BluePill: 64 KB flash (some variants 128 KB), 20 KB RAM. Bootloader partition must not overlap application.
+- STM32F103CBT6 BluePill: 128 KB flash (some variants 128 KB), 20 KB RAM. Bootloader partition must not overlap application.
 - Linker scripts and PlatformIO memory layout must stay coherent.
 
 **Process:**

@@ -1,3 +1,0 @@
-E:/NCKH/ASCON-CRA-OTA/3_node_stm32/stm32_project/ascon_ota_node_project/Debug/CMakeFiles/ascon_ota_node_project.dir
-E:/NCKH/ASCON-CRA-OTA/3_node_stm32/stm32_project/ascon_ota_node_project/Debug/CMakeFiles/edit_cache.dir
-E:/NCKH/ASCON-CRA-OTA/3_node_stm32/stm32_project/ascon_ota_node_project/Debug/CMakeFiles/rebuild_cache.dir
